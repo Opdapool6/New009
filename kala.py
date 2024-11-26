@@ -33,7 +33,7 @@ users_collection = db.users
 
 # Bot Initialization
 bot = telebot.TeleBot(TOKEN)
-REQUEST_INTERVAL = 1
+REQUEST_INTERVAL = 600
 
 blocked_ports = [8700, 20000, 443, 17500, 9031, 20002, 20001]
 
